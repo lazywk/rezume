@@ -1,0 +1,23 @@
+.career {
+    padding: 20px 10px;
+}
+
+.career-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.career-item {
+    text-align: center;
+}
+
+.career-item p {
+    color: #575757;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
