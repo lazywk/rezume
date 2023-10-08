@@ -7,7 +7,7 @@ export default function UserHero() {
       <div className='user-hero-inner'>
         <div className='user-avatar'>
           <div className='user-avatar-border'>
-            <img src='https://placehold.co/400x400' className='user-avatar-img' alt='profile ddsfsf' />
+            <img src={profileImg} className='user-avatar-img' alt='profile ddsfsf' />
           </div>
         </div>
         <div className='user-hero-info'>
