@@ -59,7 +59,6 @@ export default function PortfolioPage() {
       unmountOnExit
     >
       <div className='portfolio'>
-        <h2 className='portfolio-title'>My Projects</h2>
         <div className='portfolio-list'>
           {
             portfolioData.map(el => {
