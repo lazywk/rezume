@@ -39,14 +39,12 @@ export default function PortfolioPage() {
         'Working with 3 different roles (admin, seller, customer)',
         'Reviewing and fixing other people’s code',
         'Explanation of errors and troubleshooting methods',
-        'Socket.io',
-        'Responsive design'
       ],
       langs: [
         'NextJs',
         'Ant Design',
       ]
-    }
+    },
   ]
 
   useEffect(() => {
