@@ -10,7 +10,7 @@ import Footer from 'components/layouts/footer';
 
 function App() {
 
-  const isAdmin = false
+  const isAdmin = true
 
   return (
     <>
