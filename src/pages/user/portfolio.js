@@ -36,7 +36,6 @@ export default function PortfolioPage() {
       description: 'Providing a secure trading and secure payment system between the seller and the buyer',
       tasks: [
         'Partial participation in the project',
-        'Working with 3 different roles (admin, seller, customer)',
         'Reviewing and fixing other people’s code',
         'Explanation of errors and troubleshooting methods',
       ],
