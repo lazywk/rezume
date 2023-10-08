@@ -1,0 +1,124 @@
+.portfolio-title {
+    color: #3D3D3D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-card {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #F7D039;
+    padding: 5px 5px 20px;
+}
+
+.portfolio-card-img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 14px;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        img {
+            width: 280px;
+            border-radius: 12px;
+            max-height: 170px;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.portfolio-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-card-title {
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.portfolioo-card-url {
+    color: #006fee;
+    font-size: 12px;
+    line-height: 13px;
+    border-bottom: 1px solid #006fee;
+}
+
+.portfolio-desc {
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.portfolio-card-task-title {
+    color: #ef9c3d;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.portfolio-card-task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.portfolio-card-task-item {
+    position: relative;
+    padding-left: 17px;
+    color: #353535;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+
+    &::before {
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        content: '#';
+    }
+}
+
+.portfolio-card-lang-title {
+    margin-top: 10px;
+}
+
+.portfolio-card-lang-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-card-lang-item {
+    padding-left: 0;
+    padding-right: 7px;
+
+    &::before {
+        display: none;
+    }
+}
