@@ -1,5 +1,7 @@
+import React from 'react';
 import PortfolioCard from 'components/elements/portfolio-card'
-import React from 'react'
+import portfolioImg1 from 'assets/images/boomerang.png'
+import portfolioImg2 from 'assets/images/soff.png'
 
 export default function PortfolioPage() {
 
@@ -7,7 +9,7 @@ export default function PortfolioPage() {
     {
       id: 1,
       name: 'Boomerang - GPS Tracking System',
-      img: 'https://placehold.co/400x400',
+      img: portfolioImg1,
       url: 'https://gps.uzal.uz',
       description: "A private website that controls the direction and movements of the cars, as well as the driver's duties, which are controlled by administrators.",
       tasks: [
@@ -27,7 +29,7 @@ export default function PortfolioPage() {
     {
       id: 2,
       name: 'SOFF - ECommerce',
-      img: 'https://placehold.co/400x400',
+      img: portfolioImg2,
       url: 'https://soff.uz',
       description: 'Providing a secure trading and secure payment system between the seller and the buyer',
       tasks: [
