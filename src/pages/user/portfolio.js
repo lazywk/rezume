@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react'
+import { CSSTransition } from 'react-transition-group';
 import PortfolioCard from 'components/elements/portfolio-card'
 import portfolioImg1 from 'assets/images/boomerang.png'
 import portfolioImg2 from 'assets/images/soff.png'
 
 export default function PortfolioPage() {
+  const [showPage, setShowPage] = useState(false);
 
   const portfolioData = [
     {
@@ -47,16 +49,28 @@ export default function PortfolioPage() {
     }
   ]
 
+  useEffect(() => {
+    setShowPage(true)
+  }, [])
+
+
   return (
-    <div className='portfolio'>
-      <h2 className='portfolio-title'>My Projects</h2>
-      <div className='portfolio-list'>
-        {
-          portfolioData.map(el => {
-            return <PortfolioCard item={el} key={el.id} />
-          })
-        }
+    <CSSTransition
+      in={showPage}
+      timeout={300}
+      classNames="page"
+      unmountOnExit
+    >
+      <div className='portfolio'>
+        <h2 className='portfolio-title'>My Projects</h2>
+        <div className='portfolio-list'>
+          {
+            portfolioData.map(el => {
+              return <PortfolioCard item={el} key={el.id} />
+            })
+          }
+        </div>
       </div>
-    </div>
+    </CSSTransition>
   )
 }

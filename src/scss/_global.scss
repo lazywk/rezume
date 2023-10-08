@@ -47,17 +47,35 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
-  cursor: pointer;
+    width: 0px;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  cursor: pointer;
+    background: #f1f1f1;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FBD144;
-  cursor: pointer;
+    background: #FBD144;
+    cursor: pointer;
 }
 
+
+.page-enter {
+    opacity: 0;
+}
+
+.page-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.page-exit {
+    opacity: 1;
+}
+
+.page-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+}
