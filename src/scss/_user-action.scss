@@ -1,8 +1,15 @@
-
-
 .user-action {
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 30px 0 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .user-action {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 20px 0;
+    }
 }

@@ -97,12 +97,79 @@
     }
 
 
-.social-link-item {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .social-link-item {
+        width: 20px;
+        height: 20px;
+    }
+
+    .user-avatar-img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
 }
 
+@media only screen and (max-width: 454px) {
+    .user-hero {
+        max-width: 100%;
+    }
+
+    .user-hero-info {
+        padding-left: 15px;
+    }
+
+    .user-fullname {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .user-job {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+
+    .social-link-item {
+        width: 18px;
+        height: 18px;
+    }
+
+    .user-avatar-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .user-hero-info {
+        padding-left: 10px;
+    }
+
+    .user-fullname {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .user-avatar-img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .user-fullname {
+        font-size: 16px;
+    }
+
+    .user-job {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .user-avatar-img {
+        max-width: 80px;
+        max-height: 80px;
+    }
 }
