@@ -1,0 +1,51 @@
+.about {
+    padding: 50px 0 20px;
+}
+
+.about-title {
+    color: #A3ABB2;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.about-content {
+    text-align: center;
+    color: #A3ABB2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .about {
+        padding: 30px 0 0;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .about-content {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about {
+        padding: 20px 0 0;
+    }
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-content {
+        font-size: 14px;
+    } 
+}
