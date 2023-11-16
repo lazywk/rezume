@@ -7,7 +7,7 @@ export default function UserHero() {
       <div className='user-hero-inner'>
         <div className='user-avatar'>
           <div className='user-avatar-border'>
-            <img src={profileImg} className='user-avatar-img' alt='profile ddsfsf' />
+            <img src={'https://media.licdn.com/dms/image/D4D03AQF0EupG_hbXVw/profile-displayphoto-shrink_200_200/0/1697026972921?e=1705536000&v=beta&t=suZKOjcvoooSGMj7BIzP7yFAdyIkpepcZDCAJzBdpUM'} className='user-avatar-img' alt='profile ddsfsf' />
           </div>
         </div>
         <div className='user-hero-info'>
