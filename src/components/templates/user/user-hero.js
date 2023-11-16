@@ -1,5 +1,4 @@
 import React from 'react'
-import profileImg from 'assets/images/avatar.png'
 
 export default function UserHero() {
   return (
